@@ -50,7 +50,6 @@ main {
     display: flex;
     justify-content: justify;
     align-items: center;
-    gap: 10px;
 }
 
 .purple-container-styling {
@@ -140,36 +139,51 @@ li {
     background-position: left center;
     margin-bottom: 30px;
     font-weight: 900;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: baseline;
 }
 
-li.reaction {
-    background-image: url(assets/images/icon-reaction.svg);
-    color: var(--Light-red);
-}
-
-li.memory {
-    background-image: url(assets/images/icon-memory.svg);
-    color: var(--Orangey-yellow);
-}
-
-li.verbal {
-    background-image: url(assets/images/icon-verbal.svg);
-    color: var(--Green-teal);
-}
-
-li.visual {
-    background-image: url(assets/images/icon-visual.svg);
-    color: var(--Cobalt-blue);
-}
-
+/*======== li.parameters + reaction =======*/
 .parameters {
     background-color: var(--Light-lavender);
     list-style: none;
     margin-bottom: 15px;
     padding: 10px;
     border-radius: 10px;
+}
+
+span.reaction {
+    background-image: url(assets/images/icon-reaction.svg);
+    background-repeat: no-repeat;
+    color: var(--Light-red);
+    background-size: 15px;
     padding-left: 30px;
+}
+
+span.memory {
+    background-image: url(assets/images/icon-memory.svg);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-size: 15px;
+    color: var(--Orangey-yellow);
+}
+
+span.verbal {
+    background-image: url(assets/images/icon-verbal.svg);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    padding-left: 30px;
+    color: var(--Green-teal);
+}
+
+span.visual {
+    background-image: url(assets/images/icon-visual.svg);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-size: 15px;
+    color: var(--Cobalt-blue);
 }
 
 .continue-button {
