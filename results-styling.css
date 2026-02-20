@@ -132,6 +132,7 @@ h4 {
 ul {
     list-style-type: none;
     padding-left: 0;
+    font-size: 0.9rem;
 }
 
 li {
@@ -146,43 +147,33 @@ li {
 }
 
 /*======== li.parameters + reaction =======*/
-.parameters {
+/*.parameters {
     background-color: var(--Pale-blue);
     list-style: none;
     margin-bottom: 15px;
     padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-radius: 10px;
+} */
+
+.icon {
+    vertical-align: baseline;
 }
 
 span.reaction {
-    background-image: url(assets/images/icon-reaction.svg);
-    background-repeat: no-repeat;
     color: var(--Light-red);
-    background-size: 15px;
-    padding-left: 30px;
 }
 
 span.memory {
-    background-image: url(assets/images/icon-memory.svg);
-    background-repeat: no-repeat;
-    padding-left: 30px;
-    background-size: 15px;
     color: var(--Orangey-yellow);
 }
 
 span.verbal {
-    background-image: url(assets/images/icon-verbal.svg);
-    background-repeat: no-repeat;
-    background-size: 15px;
-    padding-left: 30px;
     color: var(--Green-teal);
 }
 
 span.visual {
-    background-image: url(assets/images/icon-visual.svg);
-    background-repeat: no-repeat;
-    padding-left: 30px;
-    background-size: 15px;
     color: var(--Cobalt-blue);
 }
 
