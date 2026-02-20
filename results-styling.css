@@ -43,6 +43,7 @@ main {
     width: 620px;
     max-width: 90%;
     gap: 30px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1);
 }
 
 /* ======== left-ourple-container + inner circle ======== */
@@ -117,7 +118,6 @@ p.result-description {
 }
 
 .summary-container {
-    background-color: var(--White);
     padding-right: 30px;
 }
 
@@ -129,6 +129,7 @@ h4 {
     font-size: 1.2rem;
 }
 
+/*======== li.parameters + reaction =======*/
 ul {
     list-style-type: none;
     padding-left: 0;
@@ -136,45 +137,71 @@ ul {
 }
 
 li {
-    background-repeat: no-repeat;
-    background-position: left center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-weight: 900;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    vertical-align: baseline;
+    align-items: center;
 }
-
-/*======== li.parameters + reaction =======*/
-/*.parameters {
-    background-color: var(--Pale-blue);
-    list-style: none;
-    margin-bottom: 15px;
-    padding: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: 10px;
-} */
-
-.icon {
-    vertical-align: baseline;
+/* ======== svg icons ======== */
+img.icon {
+    width: 20px;
 }
 
 span.reaction {
+    display: flex;
+    vertical-align: baseline;
+    gap: 8px;
     color: var(--Light-red);
 }
 
 span.memory {
+    display: flex;
+    vertical-align: baseline;
+    gap: 8px;
     color: var(--Orangey-yellow);
 }
 
 span.verbal {
+    display: flex;
+    vertical-align: baseline;
+    gap: 8px;
     color: var(--Green-teal);
 }
 
 span.visual {
+    display: flex;
+    vertical-align: baseline;
+    gap: 8px;
     color: var(--Cobalt-blue);
+}
+
+/* ======== pannels for parameters ======== */
+.mini-pannels {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.bk-reaction {
+    background-color: rgb(255, 235, 235);
+}
+
+.bk-memory {
+    background-color: rgb(255, 250, 233);
+}
+.bk-verbal {
+    background-color: rgb(233, 255, 250);
+}
+.bk-visual {
+    background-color: rgb(241, 239, 255);
+}
+
+span.current {
+    color: var(--Dark-gray-blue);
+}
+
+span.max {
+    color: rgb(104, 104, 104);
 }
 
 /* ======== continue button ========*/
