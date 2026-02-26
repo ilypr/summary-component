@@ -41,7 +41,6 @@ main {
     align-items: center;
     border-radius: 20px;
     width: 620px;
-    max-width: 90%;
     gap: 30px;
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1);
 }
@@ -49,7 +48,7 @@ main {
 /* ======== left-ourple-container + inner circle ======== */
 .purple-container-parent {
     display: flex;
-    justify-content: justify;
+    align-items: justify;
     align-items: center;
 }
 
@@ -241,27 +240,60 @@ span.max {
 }
 
 /* ======== tablet version ========*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+
+    main {
+        margin: 0;
+        min-width: 100vw;
+    }
+
     .Big-container {
         width: 100%;
-        display: flex;
         flex-direction: column;
         min-height: 100dvh;
+        border-radius: 0px;
     }
     
     .purple-container-styling {
-        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        min-width: 100vw;
         border-radius: 0 0 30px 30px;
+        max-width: 100%;
     }
+
+    h2 {
+     font-size: 5rem;
+    }
+
+    .circle {
+    height: 280px;
+    width: 280px;
+    font-size: 2rem;
+}
 
     .grow {
         display: flex;
+        justify-content: center;
         flex-direction: column;
         max-width: 90%;
-        padding: 0;
         width: 100%;
         box-sizing: border-box;
     }
+
+     h1 {
+        font-size: 1.8rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
 
     .summary-container {
         padding: 0;
@@ -274,11 +306,51 @@ span.max {
     .continue-button {
         margin-bottom: 30px;
     }
+
+    p.result-description {
+        font-size: 1.10rem;
+    }
+
+    .mini-pannels {
+    padding: 15px;
+}
+
+    span.current {
+    font-size: 1.5rem;
+}
+
+    span.max {
+    font-size: 1.5rem;
+}
+
+    span.reaction {
+    font-size: 1.5rem;
+}
+
+    span.memory {
+    font-size: 1.5rem;
+}
+
+    span.verbal {
+    font-size: 1.5rem;
+}
+
+    span.visual {
+    font-size: 1.5rem;
+}
+    .continue-button {
+        margin-bottom: 40px;
+        font-size: 1.5rem;
+    }
+
+    img.icon {
+        width:30px;
+    }
 }
 
 /* ======== mobile version ======== */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
     body {
         min-height: 100dvh;
         min-width: 100vw;
@@ -286,8 +358,8 @@ span.max {
     
     .Big-container {
         width: 100%;
-        display: flex;
         flex-direction: column;
+        min-height: 100dvh;
         border-radius: 0px;
     }
     
@@ -295,6 +367,12 @@ span.max {
         width: 100%;
         border-radius: 0 0 30px 30px;
     }
+
+    .circle {
+    height: 230px;
+    width: 230px;
+    font-size: 1.5rem;
+}
 
     .grow {
         display: flex;
@@ -304,12 +382,16 @@ span.max {
         box-sizing: border-box;
     }
 
-    .summary-container {
-        padding: 0;
+    h1 {
+        font-size: 1.5rem;
     }
 
-    p.result-description {
-        font-size: 1.10rem;
+    h4 {
+        font-size: 2rem;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 30px;
     }
 
     .mini-pannels {
@@ -340,15 +422,11 @@ span.max {
     font-size: 1rem;
 }
     .continue-button {
+        font-size: 1rem;
         margin-bottom: 40px;
     }
 
-    h4 {
-        font-size: 2rem;
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        margin-bottom: 30px;
+    img.icon {
+        width:20px;
     }
-
 }
