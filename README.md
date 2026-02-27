@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/summary-component-MVCak1gzbQ)
 - [Live Site URL](https://ilypr.github.io/summary-component/)
 
 ## My process
