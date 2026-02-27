@@ -23,7 +23,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img src="scheenshots/pcSum.png" alt="Alt text" height="400">
+<img src="scheenshots/phoneSum.png" alt="Alt text" height="400">
+
 
 ### Links
 
@@ -35,38 +37,18 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
+- CSS (Flexbox, media queries, CSS variables)
+- Desktop-first workflow
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
+With this project, I improved my understanding of CSS variables (using :root) and got more confident with @media queries. It was also my first time building a layout that changes structure across breakpoints (desktop vs. mobile).
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [W3Schools](https://www.w3schools.com/cssref/atrule_media.php) - this exact paragraph helped me with understanding and implementing the @media Rule.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- [GitHub](https://github.com/ilypr)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/ilypr)
