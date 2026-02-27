@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="scheenshots/pcSum.png" alt="Alt text" height="400">
-<img src="scheenshots/phoneSum.png" alt="Alt text" height="400">
+<img src="scheenshots/pcSum.PNG" alt="Alt text" height="400">
+<img src="scheenshots/phoneSum.PNG" alt="Alt text" height="400">
 
 
 ### Links
