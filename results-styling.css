@@ -229,11 +229,11 @@ a.continue-button:hover {
     transition: 0.2s;
 }
 
-a:active {
+a.continue-button:active {
     background-color: var(--Dark-gray-blue);
 }
 
-a:focus-visible {
+a.continue-button:focus-visible {
     outline: 2px solid var(--Cobalt-blue);
 }
 
