@@ -204,7 +204,7 @@ span.max {
 }
 
 /* ======== continue button ========*/
-.continue-button {
+a.continue-button {
     background-color: var(--Dark-gray-blue);
     color: white;
     padding: 15px;
@@ -213,9 +213,10 @@ span.max {
     text-align: center;
     margin-top: 40px;
     text-decoration: none;
+    display: block;
 }
 
-.continue-button:hover {
+a.continue-button:hover {
     background-color: var(--Cobalt-blue);
     color: white;
     cursor: pointer;
@@ -225,10 +226,15 @@ span.max {
     text-align: center;
     margin-top: 40px;
     text-decoration: none;
+    transition: 0.2s;
 }
 
-.continue-button:active {
+a:active {
     background-color: var(--Dark-gray-blue);
+}
+
+a:focus-visible {
+    outline: 2px solid var(--Cobalt-blue);
 }
 
 /* ======== License + link styling ======== */
